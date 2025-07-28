@@ -8,14 +8,51 @@
 </head>
 <body>
     <header>
-        <h1>What I love</h1>
+        <h1><i>MY BOOK WORLD</i></h1>
         <!--Navigation section-->
         <nav>
-            <a href="index.html">Home</a>&nbsp; &nbsp; &nbsp;
-            <a href="gallery.html">Gallery</a> &nbsp; &nbsp; &nbsp;
-            <a href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;
-            <a href="about.html">About</a>
+            <a class = "navigation" href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+            <a class = "navigation" href="gallery.html">Gallery</a> &nbsp; &nbsp; &nbsp;
+            <a class = "navigation" href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;
+            <a class = "navigation" href="about.html">About</a>
         </nav>
-    </header>
+    </header><br>
+    <form action="/submit">
+             <div>
+                <label for="name" id="Name">Name:</label>
+                <input type="text" placeholder="Enter you name" id="name" name="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email" id="Email">Email:</label>
+                <input type="email" placeholder="Enter you email address" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone" id="Phone">Phone Number:</label>
+                <input type="number" placeholder="Enter your phone number" id="phone" name="phone">
+            </div>
+            <div>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </div><br>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            </div><br>
+            <div>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Subscribe to my newsletter</label>
+            </div>
+            <div>
+                <label for="satisfaction">Satisfaction Level (1-10):</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="5">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
 </body>
 </html>
