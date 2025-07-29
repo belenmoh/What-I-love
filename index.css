@@ -50,11 +50,13 @@ a:active{
     font-size: large;
 }
 #myquotes{
-    display: flex;
-    justify-content:space-around;
-}
-/*style the footer of my page*/
+    display: grid;
+    border: 1px solid salmon;
+    grid-template-columns: repeat(2, 1fr);
 
+}
+
+/*style the footer of my page*/
 footer{
     background-color: darksalmon;
     padding: 64px;
