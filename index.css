@@ -49,6 +49,8 @@ a:active{
     font-size: large;
 }
 /*style the footer of my page*/
-footer{
-
+ul{
+    margin-left: 32px;
+    list-style-type: square;
+    text-align:bottom left;
 }

@@ -38,3 +38,27 @@ a:hover{
 a:active{
     font-size: larger;
 }
+/*style the main body of the page*/
+h3{
+    margin-left: 4px;
+    text-align: center;
+    color:brown
+}
+p{
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: "Dancing Script", "san-serif";
+    font-size: larger;
+    font-style: bolder;
+}
+/*style my table*/
+table{
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    padding: 2px;
+}
+th, td, tr{
+    border: 1px solid black;
+}
