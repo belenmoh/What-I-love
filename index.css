@@ -9,6 +9,10 @@
 }
 /*style my header section*/
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: darksalmon;
     padding: 32px;
     display: flex;
@@ -25,7 +29,6 @@ h1{
     background-color: darksalmon;
 }
 /*styled my navigation section*/
-
 a:link{
     color:crimson;
 }
@@ -39,7 +42,6 @@ a:active{
     font-size: larger;
 }
 /*style the body of my page*/
-
 .quote{
     border: 4px dashed rgb(138, 4, 4);
     background-color: rgb(202, 114, 84);
@@ -49,13 +51,16 @@ a:active{
     font-family: "Dancing Script", "san-serif";
     font-size: large;
 }
+#quote2{
+    margin-left: 20px;
+}
 #myquotes{
+    margin-top: 180px;
+    margin-bottom: 80px;
     display: grid;
-    border: 1px solid salmon;
     grid-template-columns: repeat(2, 1fr);
 
 }
-
 /*style the footer of my page*/
 footer{
     background-color: darksalmon;

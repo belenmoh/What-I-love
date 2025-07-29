@@ -9,6 +9,10 @@
 }
 /*style my header section*/
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: darksalmon;
     padding: 32px;
     display: flex;
@@ -42,6 +46,9 @@ a:active{
     font-size: larger;
 }
 /*style the main body of the page*/
+.aboutbooks{
+    margin-top: 120px;
+}
 h3{
     margin-left: 4px;
     text-align: center;

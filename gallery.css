@@ -9,6 +9,10 @@
 }
 /*style my header section*/
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: darksalmon;
     padding: 32px;
     display: flex;
