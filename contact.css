@@ -46,12 +46,19 @@ a:active{
     font-size: larger;
 }
 /*style the main form body*/
+body{
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
 .myform{
     margin-top: 120px;
 }
 div, button{
     text-align: center;
-    color:chocolate;
+    color:black;
     font-size: large;
 }
 button{

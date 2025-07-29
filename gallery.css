@@ -46,6 +46,10 @@ a:hover{
 a:active{
     font-size: larger;
 }
+/*style the body of the gallery page*/
+body{
+    background-color: rgb(247, 221, 186);
+}
 /*style the footer of my page*/
 footer{
     background-color: darksalmon;
