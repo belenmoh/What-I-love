@@ -1,0 +1,37 @@
+/*imported an external font*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*assign a global variable*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*style my header section*/
+header{
+    margin: 32px;
+    background: linear-gradient(right, #f87b7b, rgb(119, 9, 9));
+}
+
+/*My specific stylings*/
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 16px;
+    color:rgb(104, 12, 12);
+    background-color: darksalmon;
+}
+.navigation {
+    font-size: 16px ;
+    text-align: right;
+}
+#quote{
+    border: 4px dashed rgb(138, 4, 4);
+    background-color: rgb(202, 114, 84);
+    margin: 16px;
+    padding: 32px;
+    width: 250px;
+    font-family: "Dancing Script", "san-serif";
+    font-size: large;
+}

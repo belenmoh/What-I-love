@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+header{
+    margin: 32px;
+    background: linear-gradient(right, #e96f6f, rgb(119, 9, 9));
+}
+h1{
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 16px;
+    color:rgb(105, 28, 0);
+    background-color:darksalmon
+}
+.navigation {
+    font-size: 16px ;
+    text-align: right;
+}
+div, button{
+    text-align: center;
+    color:chocolate;
+    font-size: large;
+}
+#mybutton{
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration:solid;
+    text-align: center;
+}

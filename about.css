@@ -14,3 +14,7 @@ header{
     margin: 32px;
     background: linear-gradient(right, #e96f6f, rgb(119, 9, 9));
 }
+.navigation {
+    font-size: 16px ;
+    text-align: right;
+}
