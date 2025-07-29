@@ -18,9 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 h1{
-    padding-left: 500px;
     font-family: "Dancing Script", "san-serif";
     font-weight: bold;
     font-size: 32px;
@@ -28,7 +28,6 @@ h1{
     color:rgb(104, 12, 12);
     background-color: darksalmon;
 }
-
 /*style my navtigation section*/
 .navigation {
     font-size: 16px ;
@@ -49,6 +48,23 @@ a:active{
 /*style the body of the gallery page*/
 body{
     background-color: rgb(247, 221, 186);
+    flex-wrap: wrap;
+}
+section{
+    margin-top: 115px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+section img{
+    width: 300px;
+    height: 400px;
+}
+section img :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 /*style the footer of my page*/
 footer{
@@ -58,6 +74,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: none;
+    flex-wrap: wrap;
 }
 ul{
     margin-left: 32px;

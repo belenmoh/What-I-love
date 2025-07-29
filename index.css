@@ -18,9 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 h1{
-    padding-left: 500px;
     font-family: "Dancing Script", "san-serif";
     font-weight: bold;
     font-size: 32px;
@@ -49,7 +49,8 @@ body{
     background-size: cover;
     background-position: center;
     max-width: 100%;
-
+    flex-wrap: wrap;
+    overflow: scroll;
 }
 .quote{
     border: 4px dashed rgb(138, 4, 4);
@@ -78,6 +79,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: none;
+    flex-wrap: wrap;
 }
 ul{
     margin-left: 32px;

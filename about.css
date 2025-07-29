@@ -18,9 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 h1{
-    padding-left: 500px;
     font-family: "Dancing Script", "san-serif";
     font-weight: bold;
     font-size: 32px;
@@ -48,6 +48,7 @@ a:active{
 /*style the main body of the page*/
 body{
     background-color: rgb(247, 221, 186);
+    flex-wrap: wrap;
 }
 .aboutbooks{
     margin-top: 120px;
@@ -89,6 +90,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: none;
+    flex-wrap: wrap;
 }
 ul{
     margin-left: 32px;
