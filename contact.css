@@ -56,3 +56,9 @@ div, button{
     text-decoration:solid;
     text-align: center;
 }
+/*style the footer of my page*/
+ul{
+    margin-left: 32px;
+    list-style-type: square;
+    text-align:bottom left;
+}

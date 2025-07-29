@@ -39,3 +39,9 @@ a:hover{
 a:active{
     font-size: larger;
 }
+/*style the footer of my page*/
+ul{
+    margin-left: 32px;
+    list-style-type: square;
+    text-align:bottom left;
+}
