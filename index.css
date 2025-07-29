@@ -9,23 +9,23 @@
 }
 /*style my header section*/
 header{
-    margin: 32px;
-    background: linear-gradient(right, #f87b7b, rgb(119, 9, 9));
+    background-color: darksalmon;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 h1{
+    padding-left: 500px;
     font-family: "Dancing Script", "san-serif";
     font-weight: bold;
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 32px;
-    padding: 16px;
     color:rgb(104, 12, 12);
     background-color: darksalmon;
 }
 /*styled my navigation section*/
-.navigation {
-    font-size: 16px ;
-    text-align: right;
-}
+
 a:link{
     color:crimson;
 }
@@ -39,7 +39,8 @@ a:active{
     font-size: larger;
 }
 /*style the body of my page*/
-#quote{
+
+.quote{
     border: 4px dashed rgb(138, 4, 4);
     background-color: rgb(202, 114, 84);
     margin: 16px;
@@ -48,9 +49,23 @@ a:active{
     font-family: "Dancing Script", "san-serif";
     font-size: large;
 }
+#myquotes{
+    display: flex;
+    justify-content:space-around;
+}
 /*style the footer of my page*/
+
+footer{
+    background-color: darksalmon;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: none;
+}
 ul{
     margin-left: 32px;
+    box-sizing: border-box;
     list-style-type: square;
     text-align:bottom left;
 }
