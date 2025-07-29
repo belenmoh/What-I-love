@@ -54,10 +54,16 @@ p{
 /*style my table*/
 table{
     text-align: center;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-bottom: 100px;
     border: 2px solid black;
     padding: 2px;
+    width: 900px;
+    height: 100px;
+    background-color: burlywood;
+}
+th, tr:nth-child(even){
+    background-color: coral;
 }
 th, td, tr{
     border: 1px solid black;
