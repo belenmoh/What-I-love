@@ -42,10 +42,18 @@ a:active{
     font-size: larger;
 }
 /*style the body of my page*/
+body{
+    margin-top: 100px;
+    background-image: url(/images/Mybackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+
+}
 .quote{
     border: 4px dashed rgb(138, 4, 4);
     background-color: rgb(202, 114, 84);
-    margin: 16px;
     padding: 32px;
     width: 250px;
     font-family: "Dancing Script", "san-serif";
@@ -55,10 +63,10 @@ a:active{
     margin-left: 20px;
 }
 #myquotes{
-    margin-top: 180px;
-    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 180px;
+    margin-bottom: 80px;
 
 }
 /*style the footer of my page*/
