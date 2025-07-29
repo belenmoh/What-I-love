@@ -1,20 +1,41 @@
+/*imported an external font*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*assign a global variable*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/*style my header section*/
+header{
+    margin: 32px;
+    background: linear-gradient(right, #f87b7b, rgb(119, 9, 9));
 }
 h1{
     margin-bottom: 32px;
     text-align: center;
     padding: 16px;
     color:rgb(105, 28, 0);
-    background-color:darksalmon
+    background-color:darksalmon;
+    font-family: "Dancing Script", "san-serif";
+    font-style: bold;
 }
+/*style my navtigation section*/
 .navigation {
     font-size: 16px ;
     text-align: right;
 }
-header{
-    margin: 32px;
-    background: linear-gradient(right, #e96f6f, rgb(119, 9, 9));
+a:link{
+    color:crimson;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    font-size: large;
+}
+a:active{
+    font-size: larger;
 }

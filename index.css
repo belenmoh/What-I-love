@@ -1,31 +1,44 @@
 /*imported an external font*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-/*assign a global variable*/
+/*assign a global style*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 /*style my header section*/
 header{
     margin: 32px;
     background: linear-gradient(right, #f87b7b, rgb(119, 9, 9));
 }
-
-/*My specific stylings*/
 h1{
+    font-family: "Dancing Script", "san-serif";
+    font-weight: bold;
     text-align: center;
     margin-bottom: 32px;
     padding: 16px;
     color:rgb(104, 12, 12);
     background-color: darksalmon;
 }
+/*styled my navigation section*/
 .navigation {
     font-size: 16px ;
     text-align: right;
 }
+a:link{
+    color:crimson;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    font-size: large;
+}
+a:active{
+    font-size: larger;
+}
+/*style the body of my page*/
 #quote{
     border: 4px dashed rgb(138, 4, 4);
     background-color: rgb(202, 114, 84);
@@ -34,4 +47,8 @@ h1{
     width: 250px;
     font-family: "Dancing Script", "san-serif";
     font-size: large;
+}
+/*style the footer of my page*/
+footer{
+
 }

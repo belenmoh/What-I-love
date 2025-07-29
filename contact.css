@@ -1,8 +1,14 @@
+/*imported an external font*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*assigned a global styling*/
 *{
     box-sizing: border-box;
     margin:0 ;
     padding: 0;
 }
+
+/*style my header section*/
 header{
     margin: 32px;
     background: linear-gradient(right, #e96f6f, rgb(119, 9, 9));
@@ -12,12 +18,28 @@ h1{
     text-align: center;
     padding: 16px;
     color:rgb(105, 28, 0);
-    background-color:darksalmon
+    background-color:darksalmon;
+    font-family: "Dancing Script", "san-serif";
+    font-style: bold;
 }
+/*style my navigation section*/
 .navigation {
     font-size: 16px ;
     text-align: right;
 }
+a:link{
+    color:crimson;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    font-size: large;
+}
+a:active{
+    font-size: larger;
+}
+/*style the main form body*/
 div, button{
     text-align: center;
     color:chocolate;
