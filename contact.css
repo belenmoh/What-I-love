@@ -47,6 +47,10 @@ div, button{
     color:chocolate;
     font-size: large;
 }
+button{
+    margin-left: 650px;
+    margin-bottom: 16px ;
+}
 #mybutton{
     color: rgb(255, 255, 255); 
     font-size: 16px; 
