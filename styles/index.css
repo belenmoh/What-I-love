@@ -193,41 +193,43 @@ footer p {
     }
 }
 @media (max-width: 500px) {
-    header {
-        padding: 16px;
-        flex-direction: column;
-        align-items: center;
-        text-align: center; 
+    #myheader {
+        padding: 5px;
     }
-    h1 {
-        font-size: 24px;
-        margin-bottom: 8px; 
+    #myheader h1 {
+        font-size: 1.2em;
+    }
+    nav {
+        text-align: center;
     }
     .navigation {
-        text-align: center;
-        width: 100%;
-    }
-    .navigation a {
         display: block;
-        margin: 8px 0; 
+        margin: 5px auto;
+        width: auto;
+        text-align: center;
     }
-    #myquotes ul, h3 {
-        max-width: 90%;
-        font-size: 0.9em;
-        text-align: left;
+    #myquotes {
+        padding: 10px;
     }
-
     .quote {
         font-size: 0.9em;
+        margin-bottom: 10px;
     }
-
-    #myquotes li {
-      margin-bottom: 5px;
+    #quote2 {
+        margin-bottom: 10px;
+    }
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 3px;
     }
     footer {
-        padding: 16px;
+        font-size: 0.8em;
+        padding: 5px;
     }
-    p{
+    .social-icons a i {
         font-size: 1.2em;
     }
 }
