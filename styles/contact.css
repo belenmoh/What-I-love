@@ -1,0 +1,262 @@
+/*imported an external font*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*assigned a global styling*/
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+
+/*style my header section*/
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: darksalmon;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+h1{
+    font-family: "Dancing Script", "san-serif";
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color:rgb(104, 12, 12);
+    background-color: darksalmon;
+}
+
+/*style my navigation section*/
+
+.navigation {
+    font-size: 16px ;
+    text-align: right;
+}
+nav a:link{
+    text-decoration: none;
+    color: brown;
+    background-color: rgb(202, 114, 84);
+    border: 1px solid rgb(138, 4, 4);
+    border-radius: 4px;
+    padding: 8px;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    font-size: large;
+}
+a:active{
+    font-size: larger;
+}
+
+/*style the main form body*/
+
+body{
+    background-color: rgb(247, 221, 186);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+h2 {
+  color: rgb(104, 12, 12);
+}
+.myform{
+  margin-top: 120px;
+  max-width: 600px;
+  margin: 150px auto 20px;
+  padding: 30px;
+  background-color: burlywood;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.myform label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(104, 12, 12);
+}
+div, button{
+    text-align: center;
+    color:black;
+    font-size: large;
+}
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="number"],
+.myform textarea,
+.myform input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#Gender {
+  color: rgb(104, 12, 12);
+  font-weight: bold;
+  text-align: center;
+}
+.myform textarea {
+  resize: vertical;
+}
+
+.myform input[type="radio"] {
+  margin-right: 5px;
+}
+
+.myform button[type="submit"] {
+  background-color: rgb(202, 114, 84);
+  color: rgb(247, 242, 242);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.myform button[type="submit"]:hover {
+  background-color: rgb(138, 4, 4);
+}
+
+#mybutton{
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration:solid;
+    text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: darksalmon;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+}
+
+/* Copyright Text */
+
+footer p {
+  font-family: "Dancing Script", "san-serif";
+  font-size: larger;
+  font-weight: bold;
+  margin: 0;
+  color: brown; 
+}
+
+/* Social Media Icons */
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 16px;
+  color: brown;  
+  font-size: 1.5em;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: rgba(104, 12, 12, 0.8);
+  transform: scale(2.00);
+}
+
+/*Responsiveness*/
+
+@media (max-width: 768px) {
+  header {
+    padding: 24px; 
+    justify-content: space-around;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .navigation {
+    font-size: 14px;
+  }
+  body {
+    width: 100%;
+    margin-left: 0;
+      margin-right: 0;
+  }
+  footer {
+    padding: 32px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+        padding: 20px;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .navigation {
+        font-size: 13px;
+    }
+    footer {
+        padding: 20px;
+        text-align: center; 
+        justify-content: center; 
+        padding: 24px; 
+    }
+    footer p {
+        margin-bottom: 16px; 
+    }
+
+    .social-icons {
+        justify-content: center;  
+        margin-top: 16px;  
+    }
+}
+@media (max-width: 500px) {
+  header {
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+    h1 {
+        font-size: 24px;
+        margin-bottom: 8px; 
+    }
+
+    .navigation {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 8px 0; 
+    }
+    footer {
+        padding: 16px;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
